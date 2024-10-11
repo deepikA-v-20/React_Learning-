@@ -11,16 +11,13 @@ function App1() {
   return (
     <Router>
       <div>
-        <h1>User Profile</h1>
-        
-        {/* Links to navigate between components */}
+        <h1>Simple web page</h1>
         <nav>
-          <Link to="/user-image">User Image</Link> |{" "}
-          <Link to="/user-name">User Name</Link> |{" "}
-          <Link to="/user-details">User Details</Link>
+          <Link to="/user-image">Home</Link> |{"                     "}
+          <Link to="/user-name">About </Link> |{"                    "}
+          <Link to="/user-details">Contact us</Link>
         </nav>
-        
-        {/* Route configuration */}
+
         <Routes>
           <Route path="/user-image" element={<UserImage />} />
           <Route path="/user-name" element={<UserName />} />

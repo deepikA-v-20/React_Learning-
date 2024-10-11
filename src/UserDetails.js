@@ -3,8 +3,8 @@ import React from "react";
 const UserDetails = () => {
   return (
     <div>
-      <h2>User Details</h2>
-      <p>Age: 20</p>
+      <h2>About Page</h2>
+      <p>yyyy</p>
     </div>
   );
 };

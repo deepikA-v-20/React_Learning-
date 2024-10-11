@@ -3,8 +3,8 @@ import React from "react";
 const UserName = () => {
   return (
     <div>
-      <h2>User Name</h2>
-      <p>Name: Deepika</p>
+      <h2>Contact us </h2>
+      <p>xxxx</p>
     </div>
   );
 };
