@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// import { App4 } from './ondouble';
+import FloatingActionButtons from './material';
+// import { App3 } from './event';
 // import Class from './Class';
-import App1 from './App1';
+// import App1 from './App1';
 // import Welcome from './Welcome';
 // import Main from './Main';
-
+// import NewApp from './ref';
+// import { NewApp } from './ref';
+// import IncrementAndSquareArray from './incre';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App1/>
+    <FloatingActionButtons></FloatingActionButtons>
   </React.StrictMode>
 );
 
